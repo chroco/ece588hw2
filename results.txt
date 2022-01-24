@@ -1,0 +1,144 @@
+Processors:  1
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 2843830341 nanoseconds	(2.843830341 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 2741742637 nanoseconds	(2.741742637 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 2733156122 nanoseconds	(2.733156122 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 2802610297 nanoseconds	(2.802610297 sec)
+Processors:  2
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 1381425411 nanoseconds	(1.381425411 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 1476687074 nanoseconds	(1.476687074 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 1386741477 nanoseconds	(1.386741477 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 1371711619 nanoseconds	(1.371711619 sec)
+Processors:  3
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 915749887 nanoseconds	(0.915749887 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 918182289 nanoseconds	(0.918182289 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 921527083 nanoseconds	(0.921527083 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 996929924 nanoseconds	(0.996929924 sec)
+Processors:  4
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 742440632 nanoseconds	(0.742440632 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 702018254 nanoseconds	(0.702018254 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 698183371 nanoseconds	(0.698183371 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 700336383 nanoseconds	(0.700336383 sec)
+Processors:  5
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 565915733 nanoseconds	(0.565915733 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 565244864 nanoseconds	(0.565244864 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 573186771 nanoseconds	(0.573186771 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 581043129 nanoseconds	(0.581043129 sec)
+Processors:  6
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 487858433 nanoseconds	(0.487858433 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 483055729 nanoseconds	(0.483055729 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 479451188 nanoseconds	(0.479451188 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 489989080 nanoseconds	(0.489989080 sec)
+Processors:  7
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 443873607 nanoseconds	(0.443873607 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 416731794 nanoseconds	(0.416731794 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 428302730 nanoseconds	(0.428302730 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 418598619 nanoseconds	(0.418598619 sec)
+Processors:  8
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 361834813 nanoseconds	(0.361834813 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 373141543 nanoseconds	(0.373141543 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 376136549 nanoseconds	(0.376136549 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 378218011 nanoseconds	(0.378218011 sec)
+Processors:  9
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 351211477 nanoseconds	(0.351211477 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 346710248 nanoseconds	(0.346710248 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 358054469 nanoseconds	(0.358054469 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 339175463 nanoseconds	(0.339175463 sec)
+Processors:  10
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 313525125 nanoseconds	(0.313525125 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 322012283 nanoseconds	(0.322012283 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 309082500 nanoseconds	(0.309082500 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 306081001 nanoseconds	(0.306081001 sec)
+Processors:  11
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 310612449 nanoseconds	(0.310612449 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 286986989 nanoseconds	(0.286986989 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 307602243 nanoseconds	(0.307602243 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 293945177 nanoseconds	(0.293945177 sec)
+Processors:  12
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 295880105 nanoseconds	(0.295880105 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 271116900 nanoseconds	(0.271116900 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 297269936 nanoseconds	(0.297269936 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 270854867 nanoseconds	(0.270854867 sec)
+Processors:  13
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 277920208 nanoseconds	(0.277920208 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 256185811 nanoseconds	(0.256185811 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 262790746 nanoseconds	(0.262790746 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 265536121 nanoseconds	(0.265536121 sec)
+Processors:  14
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 261608321 nanoseconds	(0.261608321 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 231356337 nanoseconds	(0.231356337 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 264547130 nanoseconds	(0.264547130 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 247813198 nanoseconds	(0.247813198 sec)
+Processors:  15
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 246985881 nanoseconds	(0.246985881 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 230129790 nanoseconds	(0.230129790 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 240781234 nanoseconds	(0.240781234 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 269168997 nanoseconds	(0.269168997 sec)
+Processors:  16
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 223483093 nanoseconds	(0.223483093 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 249085136 nanoseconds	(0.249085136 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 235897371 nanoseconds	(0.235897371 sec)
+Sum of numbers from 1 to 1000000000 is 500000000500000000
+Time = 225668603 nanoseconds	(0.225668603 sec)
