@@ -13,7 +13,8 @@
 #include <assert.h>
 #include <sys/time.h>
 #include <sys/errno.h>
-
+#include <stdio.h>
+#include <math.h>
 
 #define   MAX_NUMP    32
 
@@ -68,9 +69,11 @@ void Barrier()
 void* PartialSum(void* tmp)
 {
   long int threadId = (long int) tmp;
-  int ret;
-  int startTime, endTime;
   long long int i;
+  double x = 0;
+  double y = 0;
+  double c = 0;
+  struct drand48_data buffer;
   long long int start = (long long int) threadId*Count+1;
   if (threadId <= Remainder)
     start += threadId;
@@ -86,19 +89,31 @@ void* PartialSum(void* tmp)
   /* ********************** Execute Job ********************************* */
   long long int local_sum = 0;
   for (i=start; i <= end; i++)
-    local_sum += i;
+  {
+    drand48_r(&buffer, &x);
+    drand48_r(&buffer, &y);
+    c = x * x + y * y;
+    c = sqrt(c);
+    if(c <= 1)
+    {
+      ++local_sum;
+    }
+  }
   pthread_mutex_lock(&ThreadLock); /* Get the thread lock */
   Sum += local_sum;
   pthread_mutex_unlock(&ThreadLock); /* Release the lock */
+
+  return 0;
 }
 
 
-main(int argc, char** argv)
+int main(int argc, char** argv)
 {
   pthread_t*     threads;
   pthread_attr_t attr;
   int            ret;
   long int       threadId;
+  double         dPi = 0;
 
   if(argc < 3) {
     fprintf(stderr, "Syntax: %s <max> <numProcesors>\nExiting Program...\n", argv[0]);
@@ -154,7 +169,6 @@ main(int argc, char** argv)
      * ************************************************************ */
     ret = pthread_create(&threads[threadId], &attr, PartialSum, (void*) threadId);
     assert(ret == 0);
-
   }
 
   /* Wait for each of the threads to terminate */
@@ -167,13 +181,17 @@ main(int argc, char** argv)
   ret = clock_gettime(CLOCK_REALTIME, &EndTime);
   assert(ret == 0);
 
-  printf("Sum of numbers from 1 to %llu is %llu\n", Max, Sum);
+  dPi = 4.0 * Sum / Max;
+
+  printf("Pi estimated using %llu ponts on %d processor(s): %f\n", Max, NumProcs, dPi);
   unsigned long long int runtime = 1000000000 * (EndTime.tv_sec - StartTime.tv_sec) + EndTime.tv_nsec - StartTime.tv_nsec; 
-  printf("Time = %lld nanoseconds\t(%d.%09lld sec)\n", runtime, runtime / 1000000000, runtime % 1000000000);
+  printf("Time = %lld nanoseconds\t(%lld.%09lld sec)\n", runtime, runtime / 1000000000, runtime % 1000000000);
 
   pthread_mutex_destroy(&ThreadLock);
 
   pthread_mutex_destroy(&SyncLock);
   pthread_cond_destroy(&SyncCV);
   pthread_attr_destroy(&attr);
+
+  return 0;
 }
